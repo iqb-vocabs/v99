@@ -1,0 +1,23 @@
+{
+  "name": "v99",
+  "version": "0.1.0",
+  "description": "Test Vokabulare",
+  "main": "index.js",
+  "scripts": {
+    "run_id": "addidcsv csv",
+    "run_ttl": "csv2ttl csv"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iqb-vocabs/v99.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iqb-vocabs/v99/issues"
+  },
+  "homepage": "https://github.com/iqb-vocabs/v99#readme",
+  "dependencies": {
+    "@iqb/csv2ttl": "^0.8.3"
+  }
+}

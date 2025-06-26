@@ -1,0 +1,49 @@
+{
+    "id": "TestVoc",
+    "title": [
+      {
+        "lang": "de",
+        "value": "Test Vokabulare"
+      }
+    ],
+    "csv_delimiter": ",",
+    "base": "https://w3id.org/iqb/v99",
+    "outDir": "./",
+    "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+    "vocabularies": [
+      {
+        "id": "v1",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Vokabular v1"
+          }
+        ],
+        "filenameSource": "v1_Vokabular.csv",
+        "filenameTarget": "v1_Vokabular.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": "Vokabular Set 1"
+          }
+        ]
+      },
+      {
+        "id": "v2",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Vokabular v2"
+          }
+        ],
+        "filenameSource": "v2_Vokabular.csv",
+        "filenameTarget": "v2_Vokabular.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": "Vokabular Set 2"
+          }
+        ]
+      }
+    ]
+  }
