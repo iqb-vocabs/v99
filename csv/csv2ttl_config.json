@@ -44,6 +44,23 @@
             "value": "Vokabular Set 2"
           }
         ]
+      },
+      {
+        "id": "v3",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Vokabular v3"
+          }
+        ],
+        "filenameSource": "v3_Vokabular.csv",
+        "filenameTarget": "v3_Vokabular.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": "Vokabular Set 3"
+          }
+        ]
       }
     ]
   }
