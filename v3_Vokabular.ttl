@@ -1,0 +1,111 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v99/v3/>. 
+
+n0:f5x
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n0:v2h;
+	skos:prefLabel "erkennen, erklären und nutzen den Aufbau des dezimalen Stellenwertsystems (z. B. Bündelungsprinzip, Stellenwertprinzip),"@de.
+n0:b2r
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n0:v2h;
+	skos:prefLabel "stellen Zahlen bis 1 000 000 auf verschiedene Weise dar (z. B. Anschauungsmittel, Stufenschrift, Stellenwerttabelle, Zifferndarstellung) und setzen diese zueinander in Beziehung,"@de.
+n0:t7v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.3";
+	skos:broader n0:v2h;
+	skos:prefLabel "orientieren sich im Zahlenraum bis 1 000 000 (z. B. Zahlen der Größe nach ordnen, Nachbarzahlen bestimmen)."@de.
+n0:v2h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Zahldarstellungen und Zahlbeziehungen verstehen"@de;
+	skos:narrower 
+		n0:f5x,
+		n0:b2r,
+		n0:t7v.
+n0:x7y
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n0:z2d;
+	skos:prefLabel "verfügen über ein Operationsverständnis zu den vier Grundrechenarten und erkennen und nutzen die Zusammenhänge zwischen den Operationen,"@de.
+n0:e9u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n0:z2d;
+	skos:prefLabel "beherrschen die Grundaufgaben des Kopfrechnens (u. a. Zahlzerlegungen, Eins-pluseins, Einmaleins) gedächtnismäßig und leiten deren Umkehrungen sicher ab,"@de.
+n0:e2q
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.3";
+	skos:broader n0:z2d;
+	skos:prefLabel "übertragen die Grundaufgaben des Kopfrechnens auf analoge Aufgaben im Zahlenraum bis zur Million,"@de.
+n0:q3h
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.4";
+	skos:broader n0:z2d;
+	skos:prefLabel "verstehen mündliche und halbschriftliche Rechenstrategien zu den vier Grundrechenarten und setzen diese flexibel ein,"@de.
+n0:g5g
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.5";
+	skos:broader n0:z2d;
+	skos:prefLabel "beschreiben, vergleichen und bewerten verschiedene Rechenwege^ finden, erklären und berichtigen Rechenfehler,"@de.
+n0:a5v
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.6";
+	skos:broader n0:z2d;
+	skos:prefLabel "erkennen, erklären und nutzen Rechengesetze (z. B. Kommutativgesetz: Tauschaufgaben),"@de.
+n0:c7u
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.7";
+	skos:broader n0:z2d;
+	skos:prefLabel "verstehen schriftliche Verfahren der Addition, Subtraktion und Multiplikation, beschreiben den Algorithmus, führen diesen geläufig aus und wenden ihn bei geeigneten Aufgaben an,"@de.
+n0:f3p
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.8";
+	skos:broader n0:z2d;
+	skos:prefLabel "kontrollieren Lösungen durch geeignete Vorgehensweisen (z. B. Überschlagsrechnung, Umkehroperation)."@de.
+n0:z2d
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Rechenoperationen verstehen und beherrschen"@de;
+	skos:narrower 
+		n0:x7y,
+		n0:e9u,
+		n0:e2q,
+		n0:q3h,
+		n0:g5g,
+		n0:a5v,
+		n0:c7u,
+		n0:f3p.
+n0:s7c
+	 a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "Rechenoperationen in Kontexten anwenden"@de.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de;
+	dct:title "Test Vokabulare - Vokabular v3"@de;
+	dct:description "Vokabular Set 3"@de;
+	skos:hasTopConcept
+		n0:v2h,
+		n0:z2d,
+		n0:s7c.
