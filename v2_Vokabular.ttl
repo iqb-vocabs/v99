@@ -9,12 +9,12 @@ n0:z6v
 	skos:notation "";
 	skos:topConceptOf n0:;
 	skos:prefLabel "1"@de.
-n0:v9q
+n0:p3d
 	 a skos:Concept;
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "2"@de.
+	skos:prefLabel "6"@de.
 n0:r5c
 	 a skos:Concept;
 	skos:inScheme n0:;
@@ -28,5 +28,5 @@ n0:
 	dct:description "Vokabular Set 2"@de;
 	skos:hasTopConcept
 		n0:z6v,
-		n0:v9q,
+		n0:p3d,
 		n0:r5c.
