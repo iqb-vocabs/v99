@@ -11,6 +11,23 @@
     "outDir": "./",
     "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
     "vocabularies": [
+        {
+        "id": "v2",
+        "title": [
+          {
+            "lang": "de",
+            "value": "Vokabular v2"
+          }
+        ],
+        "filenameSource": "v2_Vokabular.csv",
+        "filenameTarget": "v2_Vokabular.ttl",
+        "description": [
+          {
+            "lang": "de",
+            "value": "Vokabular Set 2"
+          }
+        ]
+      },
       {
         "id": "v3",
         "title": [
