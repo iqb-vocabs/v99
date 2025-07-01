@@ -1,0 +1,123 @@
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>. 
+@prefix dc: <http://purl.org/dc/elements/1.1/>.
+@prefix n0: <https://w3id.org/iqb/v99/sc/>. 
+
+n0:r5z
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.1";
+	skos:broader n0:q2h;
+	skos:prefLabel "dunkelgrün"@de,
+	"vert foncé"@fr,
+	"verde scuro"@it,
+	"verd stgir"@rm,
+	"dark green "@en.
+n0:f9v
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1.2";
+	skos:broader n0:q2h;
+	skos:prefLabel "hellgrün "@de,
+	"vert clair"@fr,
+	"verde chiaro"@it,
+	"verde-clarent"@rm,
+	"light green"@en.
+n0:q2h
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "1";
+	skos:topConceptOf n0:;
+	skos:prefLabel "grün"@de,
+	"vert"@fr,
+	"verde"@it,
+	"malmadir"@rm,
+	"green"@en;
+	skos:narrower n0:r5z,
+		n0:f9v.
+n0:u2z
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.1";
+	skos:broader n0:e6p;
+	skos:prefLabel "danorange"@de,
+	"orange foncé"@fr,
+	"arancione scuro"@it,
+	"oransch stgir"@rm,
+	"dark orange"@en.
+n0:f9r
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2.2";
+	skos:broader n0:e6p;
+	skos:prefLabel "hellorange"@de,
+	"orange clair"@fr,
+	"arancione chiaro"@it,
+	"clearoransch"@rm,
+	"light orange"@en.
+n0:e6p
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "2";
+	skos:topConceptOf n0:;
+	skos:prefLabel "orange"@de,
+	"orange"@fr,
+	"arancione"@it,
+	"oransch"@rm,
+	"orange"@en;
+	skos:narrower n0:u2z,
+		n0:f9r.
+n0:q9f
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.1";
+	skos:broader n0:t5q;
+	skos:prefLabel "dunkleviolett"@de,
+	"violet foncé"@fr,
+	"viola scuro"@it,
+	"violet stagie"@rm,
+	"dark purple"@en.
+n0:b5p
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3.2";
+	skos:broader n0:t5q;
+	skos:prefLabel "hellviolett"@de,
+	"violet clair"@fr,
+	"viola chiaro"@it,
+	"violet pallida"@rm,
+	"light purple"@en.
+n0:t5q
+	a skos:Concept;
+	skos:inScheme n0:;
+	skos:notation "3";
+	skos:topConceptOf n0:;
+	skos:prefLabel "violett"@de,
+	"violet"@fr,
+	"viola"@it,
+	"violet"@rm,
+	"purple"@en;
+	skos:narrower n0:q9f,
+		n0:b5p.
+n0:
+	a skos:ConceptScheme;
+	dct:creator "IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@de,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@fr,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@it,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@rm,
+	"IQB - Institut zur Qualitätsentwicklung im Bildungswesen"@en;
+	dct:title "Farben - Sekundärfarben"@de,
+	"Couleurs - Couleurs secondaires"@fr,
+	"Colori - Colori secondari"@it,
+	"Colurs - Colurs secundaras"@rm,
+	"Colors - Secondary colors"@en;
+	dct:description "Desc Sekundärfarben"@de,
+	""@en,
+	""@fr,
+	""@it,
+	""@rm;
+	dct:license <https://creativecommons.org/publicdomain/zero/1.0/deed.de>;
+	skos:hasTopConcept
+		n0:q2h,
+		n0:e6p,
+		n0:t5q.

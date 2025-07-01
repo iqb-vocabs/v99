@@ -1,49 +1,130 @@
 {
-    "id": "TestVoc",
-    "title": [
-      {
-        "lang": "de",
-        "value": "Test Vokabulare"
-      }
-    ],
-    "csv_delimiter": ",",
-    "base": "https://w3id.org/iqb/v99",
-    "outDir": "./",
-    "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
-    "vocabularies": [
+  "id": "colors",
+  "title": [
+    {
+      "lang": "de",
+      "value": "Farben"
+    },
+    {
+      "lang": "en",
+      "value": "Colors"
+    },
+    {
+      "lang": "fr",
+      "value": "Couleurs"
+    },
+    {
+      "lang": "it",
+      "value": "Colori"
+    },
+    {
+      "lang": "rm",
+      "value": "Colurs"
+    }
+  ],
+  "csv_delimiter": ",",
+  "base": "https://w3id.org/iqb/v99",
+  "outDir": ".",
+  "idPattern": "^[abcdefghprqstuvxyz]{1}[2345679]{1}[abcdefghprqstuvxyz]{1}$",
+  "creator": "IQB - Institut zur Qualitätsentwicklung im Bildungswesen",
+  "vocabularies": [
+    {
+      "id": "pc",
+      "title": [
         {
-        "id": "v2",
-        "title": [
-          {
-            "lang": "de",
-            "value": "Vokabular v2"
-          }
-        ],
-        "filenameSource": "v2_Vokabular.csv",
-        "filenameTarget": "v2_Vokabular.ttl",
-        "description": [
-          {
-            "lang": "de",
-            "value": "Vokabular Set 2"
-          }
-        ]
-      },
-      {
-        "id": "v3",
-        "title": [
-          {
-            "lang": "de",
-            "value": "Vokabular v3"
-          }
-        ],
-        "filenameSource": "v3_Vokabular.csv",
-        "filenameTarget": "v3_Vokabular.ttl",
-        "description": [
-          {
-            "lang": "de",
-            "value": "Vokabular Set 3"
-          }
-        ]
-      }
-    ]
-  }
+          "lang": "de",
+          "value": "Grundfarben"
+        },
+        {
+          "lang": "en",
+          "value": "Primary colors"
+        },
+        {
+          "lang": "fr",
+          "value": "Couleurs primaires"
+        },
+        {
+          "lang": "it",
+          "value": "Colori primari"
+        },
+        {
+          "lang": "rm",
+          "value": "Colurs primaras"
+        }
+      ],
+      "filenameSource": "pc_Grundfaerben.csv",
+      "filenameTarget": "pc_Grundfaerben.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": "Desc Grundfarben"
+        },
+        {
+          "lang": "en",
+          "value": ""
+        },
+        {
+          "lang": "fr",
+          "value": ""
+        },
+        {
+          "lang": "it",
+          "value": ""
+        },
+        {
+          "lang": "rm",
+          "value": ""
+        }
+      ]
+    },
+        {
+      "id": "sc",
+      "title": [
+        {
+          "lang": "de",
+          "value": "Sekundärfarben"
+        },
+        {
+          "lang": "en",
+          "value": "Secondary colors"
+        },
+        {
+          "lang": "fr",
+          "value": "Couleurs secondaires"
+        },
+        {
+          "lang": "it",
+          "value": "Colori secondari"
+        },
+        {
+          "lang": "rm",
+          "value": "Colurs secundaras"
+        }
+      ],
+      "filenameSource": "sc_Sekundarfaerben.csv",
+      "filenameTarget": "sc_Sekundarfaerben.ttl",
+      "description": [
+        {
+          "lang": "de",
+          "value": "Desc Sekundärfarben"
+        },
+        {
+          "lang": "en",
+          "value": ""
+        },
+        {
+          "lang": "fr",
+          "value": ""
+        },
+        {
+          "lang": "it",
+          "value": ""
+        },
+        {
+          "lang": "rm",
+          "value": ""
+        }
+      ]
+    }
+  ]
+}
