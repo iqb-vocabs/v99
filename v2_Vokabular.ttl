@@ -14,7 +14,7 @@ n0:p3d
 	skos:inScheme n0:;
 	skos:notation "";
 	skos:topConceptOf n0:;
-	skos:prefLabel "67"@de.
+	skos:prefLabel "6"@de.
 n0:r5c
 	 a skos:Concept;
 	skos:inScheme n0:;
