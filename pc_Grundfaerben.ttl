@@ -12,8 +12,7 @@ n0:q9p
 	"rouge"@fr,
 	"rosso"@it,
 	"cotschen"@rm,
-	"red"@en; 
-	skos:definition "Description für rot"@de.
+	"red"@en.
 n0:y3p
 	a skos:Concept;
 	skos:inScheme n0:;
