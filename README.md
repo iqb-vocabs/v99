@@ -1,7 +1,7 @@
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 # Beispiel Repository für internationales Vokabular
 
-Dies ist ein beispielhaftes Repository für internationales Vokabular. Bei IQB verwenden wir diese Art von Repository für Vokabeln, die für Metadaten in dn Programmierungen des [IQB](https://www.iqb.hu-berlin.de).
+Dies ist ein Beispiel-Repository für internationales Vokabular. Bei [IQB](https://www.iqb.hu-berlin.de) verwenden wir diese Art von Repository für Vokabeln, die für Metadaten in dn Programmierungen des [IQB](https://www.iqb.hu-berlin.de) Anwendungen verwendet werden.
 
 Nutzen Sie den Weblink oben rechts auf der GitHub-Startseite dieses Repositories, um zur SkoHub-Darstellung der Vokabulare zu gelangen.
 
